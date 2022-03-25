@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMusic } from '@fortawesome/free-solid-svg-icons'
 
 const Headphones = () => {
+    
+
     return (
         <div className='headphones-container'>
             <img src="" alt="" />

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "image": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-fit-pro/plp/bbd.plpasset.earbuds.fitpro-v2.jpg.large.1x.jpg",
+        "name": "Beats Fit Pro",
+        "price": 199,
+        "brand": "Beats",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "2",
+        "image": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/studio-buds/plp/bbd.plpasset.earbuds.studiobuds-v2.jpg.large.1x.jpg",
+        "name": "Beats Studio Buds",
+        "price": 119,
+        "brand": "Beats",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "3",
+        "image": "https://www.beatsbydre.com/content/dam/beats/web/product/earphones/powerbeats-pro/plp/bbd.plpasset.earbuds.pbpro-v2.jpg.large.1x.jpg",
+        "name": "Powerbeats Pro",
+        "price": 179,
+        "brand": "Beats",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "4",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/10/78/107846.jpg",
+        "name": "WF-1000XM3",
+        "price": 159,
+        "brand": "Sony",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "5",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/15/82/158210.jpg",
+        "name": "WF-1000XM4",
+        "price": 209,
+        "brand": "Sony",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "6",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/16/88/168873_1.jpg",
+        "name": "LinkBud WF-L900",
+        "price": 179,
+        "brand": "Sony",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "7",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/16/52/165299.jpg",
+        "name": "Airpods Pro 2021",
+        "price": 229,
+        "brand": "Apple",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "8",
+        "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV7N2_AV1?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1551489684370",
+        "name": "AirPods 2",
+        "price": 129,
+        "brand": "Apple",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "9",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/16/52/165298_1.jpg",
+        "name": "AirPods 3",
+        "price": 179,
+        "brand": "Apple",
+        "category": "Wireless Earphone"
+    },
+    {
+        "id": "10",
+        "image": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/plp/bbd.plpasset.headphones.solo3-v2.jpg.large.1x.jpg",
+        "name": "Beats Solo3 Wireless",
+        "price": 199,
+        "brand": "Beats",
+        "category": "Wireless Headphone"
+    },
+    {
+        "id": "11",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/15/78/157812_5.jpg",
+        "name": "WH-1000XM4",
+        "price": 349,
+        "brand": "Sony",
+        "category": "Wireless Headphone"
+    },
+    {
+        "id": "12",
+        "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/14/76/147603_1.jpg",
+        "name": "Airpods Max",
+        "price": 449,
+        "brand": "Apple",
+        "category": "Wireless Headphone"
+    }
+]
