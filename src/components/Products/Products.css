@@ -14,7 +14,7 @@
     height: 500px;
     text-align: center;
     background-color: rgb(64, 153, 255);
-    background-image: linear-gradient(to bottom, rgb(0, 47, 255), rgb(64, 153, 255))  ;
+    background-image: linear-gradient(to bottom, rgb(0, 47, 255), rgb(64, 153, 255));
     border-radius: 10px 0px 0px 10px;
     box-shadow: 0px 0px 0px, 0px 0px 10px rgb(200, 200, 200);
     color: white;
@@ -112,5 +112,19 @@
 
     .button-remove{
         padding: 10px 26px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .order-cart{
+        top: 200px;
+    }
+
+    .button-random{
+        padding: 5px 5px;
+    }
+
+    .button-remove{
+        padding: 7px 10px;
     }
 }
