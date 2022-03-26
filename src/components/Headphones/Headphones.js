@@ -9,11 +9,11 @@ const Headphones = ({ headphone, addToCart }) => {
     return (
         <div className='headphones-container'>
             <img src={image} alt="" />
-            <div>
+            <div className='headphone-info'>
                 <h2>{name}</h2>
-                <p>Price: €{price}</p>
-                <p>Brand: {brand}</p>
-                <p>Category: {category}</p>
+                <p className='headphone-price'>Price: €{price}</p>
+                <p className='headphone-brand'>Brand: {brand}</p>
+                <p className='headphone-category'>Category: {category}</p>
             </div>
             <button onClick={() => addToCart(headphone)} className='button-add-cart'>
                 <p>Add to Cart</p>

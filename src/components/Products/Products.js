@@ -35,7 +35,10 @@ const Products = () => {
             </div>
             <div className='order-cart'>
                 <div className='order-info'>
-                    <h2>Order Summery</h2>
+                    <h2>Your Musical Cart</h2>
+                    <div>
+
+                    </div>
                     <p id='items'>Items: {cart.length}</p>
                     <div className='button-group'>
                         <button className='button-random'>Choose Random</button>
