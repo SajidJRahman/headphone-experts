@@ -50,7 +50,7 @@
     {
         "id": "7",
         "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/16/52/165299.jpg",
-        "name": "Airpods Pro 2021",
+        "name": "AirPods Pro 2021",
         "price": 229,
         "brand": "Apple",
         "category": "Wireless Earphone"
@@ -90,7 +90,7 @@
     {
         "id": "12",
         "image": "https://asset.mediaw.it/wcsstore/MMCatalogAssetStore/asset/images/14/76/147603_1.jpg",
-        "name": "Airpods Max",
+        "name": "AirPods Max",
         "price": 449,
         "brand": "Apple",
         "category": "Wireless Headphone"

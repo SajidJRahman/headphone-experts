@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 
 .headphones-container{
-    border: 1px solid lightslategray;
-    width: 300px;
-    height: 400px;
+    width: 310px;
+    height: 550px;
     border-radius: 12px;
+    box-shadow: 0px 0px 0px, 0px 0px 10px rgb(226, 226, 226);
     text-align: center;
     position: relative;
 }
 
 .headphones-container img{
-
+    width: 300px;
+    border-radius: 11px;
+    margin: 5px 0px;
 }
 
 .headphones-container h2{
@@ -24,7 +26,7 @@
     background-color: white;
     position: absolute;
     bottom: 15px;
-    left: 10px;
+    left: 13px;
     display: flex;
     align-items: center;
 }
