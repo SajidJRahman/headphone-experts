@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Headphones from '../Headphones/Headphones';
-import './Products.css'
+import './Products.css';
 
 const Products = () => {
     const [headphones, setHeadphones] = useState([]);
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
+    const [random, setRandom] = useState([]);
 
     useEffect(() => {
         fetch('products.json')
@@ -12,9 +13,21 @@ const Products = () => {
             .then(data => setHeadphones(data))
     }, []);
 
-    const addToCart = (headphone) => {
-        const newCart = [...cart, headphone];
-        setCart(newCart);
+    const addToCart = (name) => {
+        if (cart.length < 4) {
+            const newCart = [...cart, name + ' '];
+            setCart(newCart);
+        }
+        else {
+            alert('You cannot add more than 4 items')
+        }
+    }
+
+    const chooseRandom = () => {
+        const showRandom = Math.floor(Math.random() * cart.length);
+        const randomItem = cart[showRandom];
+        setRandom(randomItem);
+        document.getElementById('items').innerHTML = '';
     }
 
     const removeAll = () => {
@@ -34,16 +47,14 @@ const Products = () => {
                 }
             </div>
             <div className='order-cart'>
-                <div className='order-info'>
-                    <h2>Your Musical Cart</h2>
-                    <div>
-
-                    </div>
-                    <p id='items'>Items: {cart.length}</p>
-                    <div className='button-group'>
-                        <button className='button-random'>Choose Random</button>
-                        <button onClick={removeAll} className='button-remove'>Remove All</button>
-                    </div>
+                <h2>Your Musical Cart</h2>
+                <div id='items'>
+                    <h3>{cart}</h3>
+                </div>
+                <h3>{random}</h3>
+                <div className='button-group'>
+                    <button onClick={chooseRandom} className='button-random'>Choose Random</button>
+                    <button onClick={removeAll} className='button-remove'>Remove All</button>
                 </div>
             </div>
         </div>

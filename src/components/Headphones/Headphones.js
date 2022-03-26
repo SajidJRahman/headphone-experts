@@ -13,9 +13,9 @@ const Headphones = ({ headphone, addToCart }) => {
                 <h2>{name}</h2>
                 <p className='headphone-price'>Price: €{price}</p>
                 <p className='headphone-brand'>Brand: {brand}</p>
-                <p className='headphone-category'>Category: {category}</p>
+                <p className='headphone-category'>Type: {category}</p>
             </div>
-            <button onClick={() => addToCart(headphone)} className='button-add-cart'>
+            <button onClick={() => addToCart(headphone.name)} className='button-add-cart'>
                 <p>Add to Cart</p>
                 <FontAwesomeIcon icon={faHeadphonesSimple} />
             </button>
